@@ -3,4 +3,5 @@ public static void Add (int... numbers) {
         for (int numbers : numbers) {
         sum=sum+numbers;}
         System.out.println(sum);
+        System.out.println("Suma elementelor este:" + sum);
 }
